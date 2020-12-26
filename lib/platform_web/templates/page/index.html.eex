@@ -1,6 +1,6 @@
 <div class="container">
     <%= button("Create Player Account", to: "/players/new", method: :get, class: "btn") %>
     <%= button("List All Players", to: "/players", method: :get) %>
-    <%= IO.inspect("Hello, World!") %>
-    <%= link("Create Player Account", to: "/players/new", class: "button") %>
+    <!-- <%= IO.inspect("Hello, World!") %> -->
+    <!-- <%= link("Create Player Account", to: "/players/new", class: "button") %> -->
 </div>
